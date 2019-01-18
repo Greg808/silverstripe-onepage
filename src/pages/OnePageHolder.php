@@ -8,6 +8,8 @@ use Page;
 class OnePageHolder extends Page
 {
 
+	private static $table_name = 'OnePageHolder';
+	
     private static $singular_name = 'One Page Holder';
 
     private static $plural_name = 'One Page Holders';
